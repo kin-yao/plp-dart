@@ -53,3 +53,109 @@ void main() {
 
   //
 }
+
+// arithmetic operations
+void main() {
+  int num1 = 10;
+  int num2 = 20;
+  int num3 = 30;
+
+  int sum = num1 + num2;
+  int product = num1 * num3;
+  int diff = num3 - num2;
+
+  print("sum is: $sum");
+  print("product is: $product");
+  print("diff is: $diff");
+}
+
+// writing function outside main function.
+void printName() {
+  print("My name John James");
+}
+
+// this is our main function.
+void main() {
+  printName();
+}
+
+void add(int num1, int num2) {
+  int sum = num1 + num2;
+  print("The sum is $sum");
+}
+
+void main() {
+  add(10, 20);
+}
+
+void main() {
+  printname();
+}
+
+void printname() {
+  print("My name is Ramadhan");
+}
+
+void main() {
+  printName("John");
+}
+
+void printName(String name) {
+  print("Welcome, ${name}.");
+}
+
+void main() {
+// Function With No Parameter & Return Type
+  String name = InstructorsName();
+  print("The Name from function is $name.");
+}
+
+String InstructorsName() {
+  return "Allan Lenkaa";
+}
+
+int add(int num1, int num2) {
+  int sum = num1 + num2;
+  return sum;
+}
+
+void main() {
+  int num1 = 10;
+  int num2 = 20;
+  int total = add(num1, num2);
+  print("The sum is $total");
+}
+
+// parameter and return type
+int add(int a, int b) {
+  var total;
+  total = a + b;
+  return total;
+}
+
+// parameter and no return type
+void mul(int a, int b) {
+  var total;
+  total = a * b;
+  print("Multiplication is : $total");
+}
+
+// no parameter and return type
+String greet() {
+  String greet = "Welcome";
+  return greet;
+}
+
+// no parameter and no return type
+void greetings() {
+  print("Hello World!!!");
+}
+
+void main() {
+  var total = add(2, 3);
+  print("Total sum: $total");
+  mul(2, 3);
+  var greeting = greet();
+  print("Greeting: $greeting");
+  greetings();
+}
