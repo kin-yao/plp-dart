@@ -159,3 +159,22 @@ void main() {
   print("Greeting: $greeting");
   greetings();
 }
+
+// Anonymous functions
+// These are functins which have no name
+void main() {
+  const fruits = ["Apple", "Mango", "Banana", "Ogrange"];
+  fruits.forEach((fruit) {
+    print(fruit);
+  });
+}
+
+void main() {
+  // list of cars
+  List cars = ["BMW", "BENZ", "AUDI", "TOYOTA"];
+
+  // iteration with anonymous function as a parameter
+  cars.forEach((car) {
+    print(car); // printing an item
+  });
+}
