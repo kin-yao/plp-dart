@@ -208,3 +208,41 @@ void main() {
   double result = calculateInterest(principal, rate, time);
   print("The simple interest is $result");
 }
+
+
+
+int x = 5;
+int y = 3;
+
+// Using mathematical symbols in if condition
+if (x > y) {
+  print('x is greater than y');
+}
+
+
+int time = 20;
+if (time < 12) {
+  print('Good morning!');
+} else {
+  print('Good afternoon!');
+}
+
+
+
+String fruit = 'apple';
+switch (fruit) {
+  case 'apple':
+    print('Selected fruit is Apple');
+    break;
+  case 'banana':
+    print('Selected fruit is Banana');
+    break;
+  default:
+    print('Selected fruit is unknown');
+}
+
+
+for (int i = 1; i <= 5; i++) {
+  print('Counting: $i');
+}
+
